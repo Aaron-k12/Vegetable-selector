@@ -1,0 +1,113 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(224, 222, 222);
+}
+
+
+/* layout */
+header,
+.choose-section, 
+.modal {
+    width: 510px;
+    margin: 0 auto;
+}
+
+header,
+.getVegetableBtn,
+.modal,
+.vegetable-img {
+    border-radius: 20px;
+}
+
+
+header {
+    background: pink;
+}
+
+.header-section,
+.getVegetableBtn {
+    color: rgb(63, 63, 63);
+}
+
+.header-section {
+   font-size: 50px;
+   padding-top: 10px;
+   
+}
+
+.bold-text {
+    display: block;
+    font-weight: bold;
+}
+
+.choose-section {
+    background-color: light;
+    height: 200px;
+}
+
+label {
+    display: block;
+    font-size: 40px;
+}
+
+select {
+    font-size: 20px;
+}
+
+
+.getVegetableBtn {
+    font-size: 20px;
+    padding: 20px;
+    background: pink;
+    border: none;
+    
+}
+
+.getVegetable
+.getVegetableBtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+ }
+
+
+/* modal */
+
+.modal {
+    display: none;
+    margin-top: 10px;
+    background-color: rgb(250, 211, 218);
+    position: relative;
+   
+  
+}
+
+.inner-modal {
+    opacity: 1;
+   
+    
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+   
+}
+
+.modal
+.close-btn:hover, 
+.close-btn:focus{
+   color: red;
+}
+
+
+
+.vegetable-img {
+   width: 80%;
+   padding: 10px;
+}
+
+
